@@ -1,0 +1,10 @@
+# the hosts file
+[cider-ci_hosts]
+xenial-16 ansible_connection=ssh ansible_user=root ansible_host=192.168.0.16
+jessie-40 ansible_connection=ssh ansible_user=root ansible_host=192.168.0.40
+
+[cider-ci_server]
+xenial-16
+
+[cider-ci_executors]
+jessie-40

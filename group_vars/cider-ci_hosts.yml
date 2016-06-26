@@ -1,0 +1,3 @@
+# the group_vars/cider-ci_hosts.yml file
+
+ci_server_external_hostname: 192.168.0.16
